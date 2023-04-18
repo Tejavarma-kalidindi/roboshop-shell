@@ -9,7 +9,7 @@ cd /usr/share/nginx/html
 echo -e "\e[34mline5\e[0m"
 unzip /tmp/frontend.zip
 echo -e "\e[34mline6\e[0m"
-cp /roboshop.conf /etc/nginx/default.d/roboshop.conf 
+cp roboshop.conf /etc/nginx/default.d/roboshop.conf 
 echo -e "\e[34mline7\e[0m"
 systemctl enable nginx
 systemctl restart nginx
