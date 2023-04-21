@@ -1,7 +1,7 @@
 dnf module disable mysql -y 
-yum install mysql-community-server -y
 
 cp /home/centos/roboshop-shell/mysql.repo /etc/yum.repos.d/mysql.repo
+yum install mysql-community-server -y
 
 systemctl enable mysqld
 systemctl restart mysqld  
